@@ -1,4 +1,6 @@
-# Women Who Code Hackathon 2023
+# Express Starter
+
+<p>Starter code with Express server, Mongoose ODM, EJS, and Bootstrap 5 CDN</p>
 
 <h3>Clone the Repo:</h3>
 <ul>
