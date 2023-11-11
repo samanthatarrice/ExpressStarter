@@ -10,7 +10,8 @@ main().catch((err) =>
 
 async function main() {
   // * Removed useCreateIndex and useFindAndModify bc it wasn't supported
-  await mongoose.connect("mongodb://localhost:27017/yelp-camp", {
+  // TODO: Change the database name below:
+  await mongoose.connect("mongodb://localhost:27017/myAppNameHere", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   });
